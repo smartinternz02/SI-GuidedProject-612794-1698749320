@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-commerce Shipping Prediction</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>E-commerce Shipping Prediction</h1>
+    <form id="predictionForm">
+        <label for="warehouseBlock">Warehouse Block:</label>
+        <input type="text" id="warehouseBlock" name="warehouseBlock"><br><br>
+        
+        <label for="Mode_of_shipment">Mode of shipment:</label>
+        <input type="text" id="Mode_of_shipment" name="Mode_of_shipment"><br><br>
+        
+        <label for="Customer_care_calls">Customer care calls:</label>
+        <input type="text" id="Customer_care_calls" name="Customer_care_calls"><br><br>
+        
+        <label for="Customer_rating">Customer rating:</label>
+        <input type="text" id="Customer_rating" name="Customer_rating"><br><br>
+        
+        <label for="Cost_of_the_Product">Cost of the Product:</label>
+        <input type="text" id="Cost_of_the_Product" name="Cost_of_the_Product"><br><br> 
+        
+        <label for="Prior_purchases">Prior purchases:</label>
+        <input type="text" id="Prior_purchases" name="Prior_purchases"><br><br>
+        
+        <label for="Product_importance">Product importance:</label>
+        <input type="text" id="Product_importance" name="Product_importance"><br><br>
+        
+        <label for="Gender">Gender:</label>
+        <input type="text" id="Gender" name="Gender"><br><br>
+        
+        <label for="Discount_offered">Discount_offered:</label>
+        <input type="text" id="Discount_offered" name="Discount_offered"><br><br>
+        
+        <label for="Weight_in_gms">Weight_in_gms:</label>
+        <input type="text" id="Weight_in_gms" name="Weight_in_gms"><br><br>
+        <input type="button" value="Predict" onclick="predictShipping()">
+    </form>
+    <div id="predict"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
